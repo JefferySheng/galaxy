@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-base/framework-base.iml" filepath="$PROJECT_DIR$/framework/framework-base/framework-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-core/framework-core.iml" filepath="$PROJECT_DIR$/framework/framework-core/framework-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-criteria/framework-criteria.iml" filepath="$PROJECT_DIR$/framework/framework-criteria/framework-criteria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-oauth2/framework-oauth2.iml" filepath="$PROJECT_DIR$/framework/framework-oauth2/framework-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-permission/framework-permission.iml" filepath="$PROJECT_DIR$/framework/framework-permission/framework-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-security/framework-security.iml" filepath="$PROJECT_DIR$/framework/framework-security/framework-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-starter/framework-starter.iml" filepath="$PROJECT_DIR$/framework/framework-starter/framework-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-starter/framework-starter-swagger/framework-starter-swagger.iml" filepath="$PROJECT_DIR$/framework/framework-starter/framework-starter-swagger/framework-starter-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework-util/framework-util.iml" filepath="$PROJECT_DIR$/framework/framework-util/framework-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/galaxy.iml" filepath="$PROJECT_DIR$/galaxy.iml" />
+    </modules>
+  </component>
+</project>
