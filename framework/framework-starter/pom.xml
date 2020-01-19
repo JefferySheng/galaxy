@@ -13,7 +13,5 @@
     <packaging>pom</packaging>
     <modules>
         <module>framework-starter-swagger</module>
-        <module>framework-starter-wechat</module>
-        <module>framework-starter-oss</module>
     </modules>
 </project>

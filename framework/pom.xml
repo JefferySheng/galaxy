@@ -21,7 +21,6 @@
         <module>framework-criteria</module>
         <module>framework-base</module>
         <module>framework-permission</module>
-        <module>framework-storage</module>
     </modules>
 
     <dependencies>

@@ -16,14 +16,6 @@
             <groupId>com.galaxy</groupId>
             <artifactId>framework-core</artifactId>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.galaxy</groupId>-->
-            <!--<artifactId>framework-security</artifactId>-->
-        <!--</dependency>-->
-        <dependency>
-            <groupId>com.galaxy</groupId>
-            <artifactId>framework-storage</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.aliyun</groupId>
             <artifactId>aliyun-java-sdk-core</artifactId>
@@ -97,10 +89,6 @@
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
     </dependencies>
 

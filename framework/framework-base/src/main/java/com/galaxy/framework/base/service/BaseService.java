@@ -88,7 +88,5 @@ public interface BaseService<T> extends IService<T> {
     Page<T> selectPage(Page<T> page, Criteria<T> criteria);
 
     Page<T> selectPage(PageableCriteria pageableCriteria);
-
-    String upload(String fileName, InputStream inputStream);
 }
 

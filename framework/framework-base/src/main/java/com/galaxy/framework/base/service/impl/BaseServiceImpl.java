@@ -1,6 +1,5 @@
 package com.galaxy.framework.base.service.impl;
 
-import com.aliyun.oss.OSSClient;
 import com.baomidou.mybatisplus.entity.TableInfo;
 import com.baomidou.mybatisplus.enums.SqlMethod;
 import com.baomidou.mybatisplus.exceptions.MybatisPlusException;
@@ -14,7 +13,6 @@ import com.galaxy.framework.base.pagination.PageableCriteria;
 import com.galaxy.framework.base.service.BaseService;
 import com.galaxy.framework.criteria.Criteria;
 import com.galaxy.framework.criteria.parser.CriteriaParser;
-import com.galaxy.framework.storage.impl.AliyunFileStorage;
 import org.apache.ibatis.binding.MapperMethod;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
@@ -583,14 +581,5 @@ public class BaseServiceImpl<T> implements BaseService<T> {
     @Override
     public Page<T> selectPage(PageableCriteria pageableCriteria) {
         return this.selectPage(pageableCriteria.getPage(),pageableCriteria);
-    }
-
-    @Override
-    public String upload(String fileName, InputStream inputStream) {
-        OSSClient ossClient = new OSSClient("oss-cn-beijing.aliyuncs.com", "LTAIXetLOEkoUw9Q", "TyGBSna4pat6LavxhUK0twj4HSkijt");
-        AliyunFileStorage aliyunFileUpload = new AliyunFileStorage(ossClient);
-        aliyunFileUpload.setBucketName("elderly-image");
-        aliyunFileUpload.store(inputStream,fileName);
-        return aliyunFileUpload.getDownloadUrl(fileName);
     }
 }
